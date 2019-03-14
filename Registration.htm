@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Registration</title>
+</head>
+
+
+<body>
+  
+ <table border ="2" width="100%"  >
+      <tr>
+        <td align="center"><a href="index.htm">Homepage</a></td>
+        <td align="center"><a href="films.htm">Films</a></td>
+        <td align="center"><a href="books.htm">Books</a></td>
+        <td align="center"><a href="musics.htm">Musics</a></td>
+        <td align="center"><a href="usefullinks.htm">Useful Links</a></td>
+        <td align="center"><a href="contactme.htm">Contact Me</a></td>
+        <td align="center"><a href="Registration.htm">Registration</a></td>
+      </tr>
+  </table>
+  
+  <br>
+
+    <h1>Registration.</h1>
+    
+    <form method="POST">
+
+     <label for="theName"> Name-Surname: </label>
+      <input type="text" name="name" id="theName"> <br><br>
+
+     <label for="theDate">Your Birthday:</label>
+     <input type="date" id="theDate" name="date"><br><br>
+
+     <label for="theEmail"> Email: </label>
+     <input type="email" name="email" id="theEmail"> <br><br>
+
+     <label for="thePassword"> Password: </label>
+     <input type="password" name="userpassword"> <br><br>
+
+	<p> Your Gender </p>
+			<select name="cities">
+                <option value="ps">Please Select</option>
+                <option value="man">Man</option>
+                <option value="wm">Woman </option>
+            </select>
+
+    <p>About you</p>
+	        <textarea rows="3" cols="60" name="feedback" >
+	       	Please enter your text here
+	        </textarea>
+	        <br>
+
+	<p>Upload your photo please!
+		<input type="file" name="fileToUpload"> </p>
+
+
+	<p>Please select your interests:</p>
+      <table>
+        <tr>
+      		<td><input type ="checkbox" >Swim</td>
+      		<td><input type ="checkbox" >Music</td>
+      		<td><input type ="checkbox" >Climbing</td> </tr>
+        <tr>
+      	    <td><input type ="checkbox" >Books</td>
+      		<td><input type ="checkbox" >Science and Technology</td>
+      		<td><input type ="checkbox" >Computer Games</td></tr>
+        <tr>
+      	    <td><input type ="checkbox" >Travelling</td>
+      		<td><input type ="checkbox" >Autos-Motorcyles</td>
+      		<td><input type ="checkbox" >Computer Programming</td></tr>		
+      	         		
+        </table><br><br>
+
+			    <input type="submit" value="REGISTER" onClick='alert("THANK YOU!")'>
+		</form>
+	</body>
+</html>  
